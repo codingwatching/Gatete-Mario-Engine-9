@@ -1,4 +1,4 @@
-/// @description Check if the player collected all coins and give him a prize for doing so.
+>/// @description Check if the player collected all coins and give him a prize for doing so.
 
 //If the ring is active.
 if (sprite_index == spr_coin_red_ring_active) {

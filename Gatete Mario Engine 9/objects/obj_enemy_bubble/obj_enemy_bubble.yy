@@ -41,7 +41,7 @@
         "spr_galoomba",
         "spr_bobomb_cannon",
         "spr_cheepcheep",
-      ],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coin","varType":6,},
+      ],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_coin","varDescription":"Sets the object this bubble will have inside it and generate when it pops.","varFriendlyName":"Item","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

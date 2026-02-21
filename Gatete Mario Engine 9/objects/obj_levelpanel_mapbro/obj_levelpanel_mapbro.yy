@@ -37,13 +37,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"Sets the powerup the chest will have inside upon defeating the enemy inside the room, type \"cs_\" to see a full list of the items. (Leave as is to not display the chest)","varFriendlyName":"Chest Prize","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"sprite_index","filters":[],"listItems":[
         "spr_mapbro",
         "spr_mapbro_boomerang",
         "spr_mapbro_fire",
         "spr_mapbro_ice",
-      ],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mapbro","varType":6,},
+      ],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_mapbro","varDescription":"Sets the sprite this enemy will use in the map.","varFriendlyName":"Enemy Sprite","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

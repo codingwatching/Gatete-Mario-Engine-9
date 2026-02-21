@@ -12,7 +12,10 @@
     "name":"Generators",
     "path":"folders/Objects/Enemies/Generators.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_generator_galoomba_parachute",
+    "path":"objects/obj_generator_galoomba_parachute/obj_generator_galoomba_parachute.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,10 +29,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"xmin","filters":[],"listItems":[],"multiselect":false,"name":"xmin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"xmax","filters":[],"listItems":[],"multiselect":false,"name":"xmax","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_width","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

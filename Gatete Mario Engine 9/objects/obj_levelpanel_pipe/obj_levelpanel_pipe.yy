@@ -33,9 +33,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"pipex","filters":[],"listItems":[],"multiselect":false,"name":"pipex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"pipey","filters":[],"listItems":[],"multiselect":false,"name":"pipey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"pipetype","filters":[],"listItems":[],"multiselect":false,"name":"pipetype","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"pipex","filters":[],"listItems":[],"multiselect":false,"name":"pipex","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the X destination of the target pipe in the map.","varFriendlyName":"Destination Pipe X","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"pipey","filters":[],"listItems":[],"multiselect":false,"name":"pipey","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the Y destination of the target pipe in the map.","varFriendlyName":"Destination Pipe Y","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"pipetype","filters":[],"listItems":[],"multiselect":false,"name":"pipetype","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets where Mario will come out in the warp room. (Set to true to appear on the rightmost pipe)","varFriendlyName":"Pipe Entrance","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Makes the coins under the same ID appear when the ring with the same ID is activated.","varFriendlyName":"Ring ID #","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

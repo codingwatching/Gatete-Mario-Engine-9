@@ -35,9 +35,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"powerup[1]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
-    {"$GMObjectProperty":"v2","%Name":"powerup[2]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[2]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"powerup[0]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[0]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_big","varDescription":"Sets the powerup the middle chest will have on this Mushroom House, type \"cs_\" to see a full list of the items.","varFriendlyName":"Middle Chest Powerup","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"powerup[1]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[1]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"Sets the powerup the left chest will have on this Mushroom House, type \"cs_\" to see a full list of the items. (Leave as is to not display the chest)","varFriendlyName":"Left Chest Powerup","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"powerup[2]","filters":[],"listItems":[],"multiselect":false,"name":"powerup[2]","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varDescription":"Sets the powerup the right chest will have on this Mushroom House, type \"cs_\" to see a full list of the items. (Leave as is to not display the chest)","varFriendlyName":"Right Chest Powerup","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

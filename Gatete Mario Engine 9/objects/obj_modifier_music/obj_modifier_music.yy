@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"world","filters":[],"listItems":[],"multiselect":false,"name":"world","rangeEnabled":true,"rangeMax":8.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"world","filters":[],"listItems":[],"multiselect":false,"name":"world","rangeEnabled":true,"rangeMax":8.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Sets the world number and changes the music being played in the world map.","varFriendlyName":"World #","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

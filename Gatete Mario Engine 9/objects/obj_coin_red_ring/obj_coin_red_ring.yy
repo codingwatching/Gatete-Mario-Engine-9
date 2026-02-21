@@ -32,9 +32,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"progressive","filters":[],"listItems":[],"multiselect":false,"name":"progressive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_fire","varType":4,},
+    {"$GMObjectProperty":"v2","%Name":"progressive","filters":[],"listItems":[],"multiselect":false,"name":"progressive","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varDescription":"If Mario is small, this ring will generate a mushroom instead of the powerup given in \"sprout\".","varFriendlyName":"Progressive Powerup?","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"ring_id","filters":[],"listItems":[],"multiselect":false,"name":"ring_id","rangeEnabled":true,"rangeMax":99.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Sets the ID number of the ring to make the coins under the same ID number go visible upon activation.","varFriendlyName":"Ring ID #","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"sprout","filters":[],"listItems":[],"multiselect":false,"name":"sprout","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"cs_fire","varDescription":"Sets the item this ring will generate when the coins from the same ID are collected, type \"cs_\" to see a full list of the items.","varFriendlyName":"Powerup Prize","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

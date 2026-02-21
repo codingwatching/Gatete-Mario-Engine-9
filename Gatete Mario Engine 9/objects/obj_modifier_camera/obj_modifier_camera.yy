@@ -27,9 +27,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"camera_lock_x","filters":[],"listItems":[],"multiselect":false,"name":"camera_lock_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"camera_lock_y","filters":[],"listItems":[],"multiselect":false,"name":"camera_lock_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"clouds","filters":[],"listItems":[],"multiselect":false,"name":"clouds","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"camera_lock_x","filters":[],"listItems":[],"multiselect":false,"name":"camera_lock_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Locks the camera x position when true","varFriendlyName":"Lock Camera X","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"camera_lock_y","filters":[],"listItems":[],"multiselect":false,"name":"camera_lock_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varDescription":"Locks the camera y position when true","varFriendlyName":"Lock Camera Y","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"clouds","filters":[],"listItems":[],"multiselect":false,"name":"clouds","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
