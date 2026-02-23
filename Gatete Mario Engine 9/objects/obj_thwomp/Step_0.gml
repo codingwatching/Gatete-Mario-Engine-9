@@ -145,13 +145,13 @@ if (ready == 0) {
 //Otherwise, if moving
 else {
 
-    //If moving up
+    //If moving back to start
     if (ready == 3)
         image_index = 0;
         
     //Otherwise, if falling down
     else
-		image_index = 3;
+		image_index = ((yspeed > 1) || (yspeed == 0)) ? 4 : 3;
 }
 
 //Always face right
