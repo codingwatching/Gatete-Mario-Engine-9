@@ -48,7 +48,7 @@ if (freeze == false) {
 	        instance_create_depth(bbox_left, bbox_bottom, -6, obj_smoke);
 			
 			//Snap to the right of the solid
-			x = mysolid.bbox_right+16;
+			x = mysolid.bbox_right+12;
         
 	        //Return to start position
 	        alarm[0] = 60;
@@ -67,7 +67,7 @@ if (freeze == false) {
 	        ready = 2;
 		
 			//Snap to the right of the solid
-			x = mylimit.bbox_right+16;
+			x = mylimit.bbox_right+12;
 			
 			//Return to start position
 			alarm[0] = 60;
@@ -119,7 +119,7 @@ else {
         
     //Otherwise, if moving to the left
     else
-		image_index = ((xspeed < -1) || (xspeed == 0)) ? 4 : 3;
+		image_index = ((xspeed < -1) || (xspeed == 0)) ? 6 : 5;
 }
 
 //Always face right

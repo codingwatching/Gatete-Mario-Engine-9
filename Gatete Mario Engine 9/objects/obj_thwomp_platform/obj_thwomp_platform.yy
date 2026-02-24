@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_thwomp_blue",
-    "path":"sprites/spr_thwomp_blue/spr_thwomp_blue.yy",
+    "name":"spr_thwomp_platform",
+    "path":"sprites/spr_thwomp_platform/spr_thwomp_platform.yy",
   },
   "spriteMaskId":null,
   "visible":true,

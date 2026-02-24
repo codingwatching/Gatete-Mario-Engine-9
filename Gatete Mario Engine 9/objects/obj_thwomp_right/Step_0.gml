@@ -48,7 +48,7 @@ if (freeze == false) {
 	        instance_create_depth(bbox_right, bbox_bottom, -6, obj_smoke);
 			
 			//Snap to the right of the solid
-			x = mysolid.bbox_left-15;
+			x = mysolid.bbox_left-12;
         
 	        //Return to start position
 	        alarm[0] = 60;
@@ -67,7 +67,7 @@ if (freeze == false) {
 	        ready = 2;
 		
 			//Snap to the right of the solid
-			x = mylimit.bbox_left-15;
+			x = mylimit.bbox_left-12;
 			
 			//Return to start position
 			alarm[0] = 60;
@@ -95,7 +95,7 @@ if (ready == 0) {
 
     //If Mario does not exist
     if (!instance_exists(obj_mario))
-    || (obj_mario.x > bbox_left)
+    || (obj_mario.x < bbox_right)
         image_index = 0;
         
     //Otherwise
@@ -119,7 +119,7 @@ else {
         
     //Otherwise, if moving to the right
     else
-		image_index = ((xspeed > 1) || (xspeed == 0)) ? 4 : 3;
+		image_index = ((xspeed > 1) || (xspeed == 0)) ? 8 : 7;
 }
 
 //Always face right

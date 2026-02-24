@@ -4008,7 +4008,7 @@
     {"id":{"name":"spr_tanookisuit","path":"sprites/spr_tanookisuit/spr_tanookisuit.yy",},},
     {"id":{"name":"spr_theend","path":"sprites/spr_theend/spr_theend.yy",},},
     {"id":{"name":"spr_thwimp","path":"sprites/spr_thwimp/spr_thwimp.yy",},},
-    {"id":{"name":"spr_thwomp_blue","path":"sprites/spr_thwomp_blue/spr_thwomp_blue.yy",},},
+    {"id":{"name":"spr_thwomp_platform","path":"sprites/spr_thwomp_platform/spr_thwomp_platform.yy",},},
     {"id":{"name":"spr_thwomp","path":"sprites/spr_thwomp/spr_thwomp.yy",},},
     {"id":{"name":"spr_tileset_gh","path":"sprites/spr_tileset_gh/spr_tileset_gh.yy",},},
     {"id":{"name":"spr_tileset_map_decor","path":"sprites/spr_tileset_map_decor/spr_tileset_map_decor.yy",},},
