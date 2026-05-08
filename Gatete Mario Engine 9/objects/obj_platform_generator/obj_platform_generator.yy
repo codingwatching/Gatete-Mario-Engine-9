@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"time","filters":[],"listItems":[],"multiselect":false,"name":"time","rangeEnabled":true,"rangeMax":10.0,"rangeMin":2.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varDescription":"Sets the time (In Seconds) this generator will spawn out a platform.","varFriendlyName":"Generation Time","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"time","filters":[],"listItems":[],"multiselect":false,"name":"time","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varDescription":"Sets the time (In Seconds) this generator will spawn out a platform.","varFriendlyName":"Generation Time","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"spd","filters":[],"listItems":[],"multiselect":false,"name":"spd","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.5,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varDescription":"Sets the speed of the generated platform.","varFriendlyName":"Platform Speed","varType":0,},
   ],
   "resourceType":"GMObject",

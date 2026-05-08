@@ -2,7 +2,7 @@
 
 //Set game caption (Always between brackets)
 #macro WINDOW_CAPTION	"Gatete Mario Engine 9"
-#macro GAME_VERSION		"1.3.1"
+#macro GAME_VERSION		"1.3.1.1"
 window_set_caption(WINDOW_CAPTION);
 
 //Initialize global variables
@@ -38,9 +38,9 @@ init_shockwave();
 	global.hp_max = 4;
 	
 	//Luigi's Fireball motion (If enabled, Luigi's fireballs will move in a straight line instead of bouncing)
-	//false: Disabled
-	//true: Enabled
-	global.fireballtype = 1;
+	//0: Default movement (They bounce higher)
+	//1: Straight line (They destroy at slopes)
+	global.fireballtype = 0;
 	
 	//Resets combo when getting a 1-UP (Default: false)
 	//false: Disabled

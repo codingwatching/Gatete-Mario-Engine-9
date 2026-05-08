@@ -8,7 +8,7 @@ if (place_meeting(x, y, obj_up)) {
 
         dir = 90;
         motion_set(90, other.spd);
-        length = other.length;
+        length = other.length-1;
     }
     
     //Destroy
@@ -23,7 +23,7 @@ else if (place_meeting(x, y, obj_down)) {
     
         dir = 270;
         motion_set(270, other.spd);
-        length = other.length;
+        length = other.length-1;
     }
     
     //Destroy
@@ -38,7 +38,7 @@ else if (place_meeting(x, y, obj_left)) {
     
         dir = 180;
         motion_set(180, other.spd);
-        length = other.length;
+        length = other.length-1;
     }
     
     //Destroy
@@ -53,7 +53,7 @@ else if (place_meeting(x, y, obj_right)) {
     
         dir = 0;
         motion_set(0, other.spd);
-        length = other.length;
+        length = other.length-1;
     }
     
     //Destroy

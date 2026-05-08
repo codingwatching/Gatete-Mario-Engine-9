@@ -1,6 +1,6 @@
 /// @description Generate a log if this object is inside the view
-if (!instance_exists(obj_mario_dead))
-&& (!instance_exists(obj_mario_transform)) {
+if (instance_exists(obj_mario_dead))
+|| (instance_exists(obj_mario_transform)) {
 
 	alarm[0] = 1;
 	exit;
