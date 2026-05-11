@@ -23,7 +23,6 @@ turn_speed = clamp(turn_speed, -2, 2);
 //For each platform
 for (i=0; i<4; i++) {
 	
-	//Paddle position
 	var oldx = 0;
 	var oldy = 0;
 	
@@ -36,15 +35,13 @@ for (i=0; i<4; i++) {
 		&& (obj_mario.bbox_bottom < yprevious+5) {
 		
 			//Impede platform movement if the platforms touch a solid surface or a slope
-			if ((!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_solid, 0, 1)) 
-			&& (!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_slopeparent, 1, 1))) {
-			
-				if ((oldx == 0) && (oldy == 0)) {
-					
-					oldx = x;
-					oldy = y;
-					other.turn_speed += 0.002 * (other.x - x);
-				}
+			if ((!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_solid, 1, 1)) 
+			&& (!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_slopeparent, 1, 1))) 
+			&& (oldx == 0) && (oldy == 0) {
+
+				other.oldx = x;
+				other.oldy = y;
+				other.turn_speed += 0.002 * (other.x - x);
 			}
 		}
 	}
@@ -74,4 +71,7 @@ for (i=0; i<4; i++) {
 }
    
 //Prevent the platform from moving over the given limits
-x = clamp(x, xmin, xmax);
+if (x < xmin)
+	x = xmin;
+else if (x > xmax)
+	x = xmax;
