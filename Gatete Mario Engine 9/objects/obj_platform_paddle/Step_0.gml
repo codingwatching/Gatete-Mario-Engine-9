@@ -12,7 +12,7 @@ if (active == false)
 if (!instance_exists(obj_mario_dead))
 && (!instance_exists(obj_mario_transform)) {
 
-	angle += turn_speed;
+	angle += sign(turn_speed);
 	if (angle > 360)
 	    angle -= 360;
 }
@@ -30,13 +30,14 @@ for (i=0; i<4; i++) {
 	with (platform[i]) {
 	
 		//Check for the player
-		if (collision_rectangle(bbox_left+1, bbox_top-5, bbox_right-1, bbox_top+4, obj_mario, 1, 1))
+		if (collision_rectangle(bbox_left, bbox_top-5, bbox_right, bbox_top+4, obj_mario, 0, 0))
 		&& (obj_mario.state != playerstate.jump)
 		&& (obj_mario.bbox_bottom < yprevious+5) {
 		
 			//Impede platform movement if the platforms touch a solid surface or a slope
-			if ((!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_solid, 1, 1)) 
-			&& (!collision_rectangle(obj_mario.x-9, obj_mario.bbox_top, obj_mario.x+9, obj_mario.bbox_bottom, obj_slopeparent, 1, 1))) 
+			if ((!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_solid, 1, 0)) 
+			&& (!collision_rectangle(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_slopeparent, 1, 0
+			))) 
 			&& (oldx == 0) && (oldy == 0) {
 
 				other.oldx = x;
@@ -51,8 +52,8 @@ for (i=0; i<4; i++) {
 	platform[i].y = y-distance*sin((angle+(i*90))*pi/180);
 	
 	//If the platforms are moving
-	if (oldx > 0) 
-	&& (oldy > 0) {
+	if (oldx != 0) 
+	&& (oldy != 0) {
 			
 		obj_mario.x += (platform[i].x - oldx);
 		obj_mario.y += (platform[i].y - oldy);
@@ -62,7 +63,7 @@ for (i=0; i<4; i++) {
 	else {
 		
 		turn_speed = max(0, abs(turn_speed)-0.01)*sign(turn_speed);
-		if (abs(turn_speed < 0.01))
+		if (abs(turn_speed) < 0.01)
 			turn_speed = 0;
 	}
 	
