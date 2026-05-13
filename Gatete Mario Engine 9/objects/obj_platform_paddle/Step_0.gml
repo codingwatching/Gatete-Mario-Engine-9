@@ -62,7 +62,7 @@ for (i=0; i<4; i++) {
 	else {
 		
 		turn_speed = max(0, abs(turn_speed)-0.01)*sign(turn_speed);
-		if (abs(turn_speed < 0.01))
+		if (abs(turn_speed) < 0.01)
 			turn_speed = 0;
 	}
 	
